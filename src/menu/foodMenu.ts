@@ -1,3 +1,6 @@
+import { useEffect, useState } from "react";
+import Papa from "papaparse";
+
 export interface MenuItem {
     name: string;
     nameEn?: string;
@@ -7,6 +10,10 @@ export interface MenuItem {
     category: string;
     categoryEn?: string;
     options?: { name: string; nameEn?: string; price: string }[];
+    subCategory?: string;
+    subCategoryEn?: string;
+    subSubCategory?: string;
+    subSubCategoryEn?: string;
   }
   
   export const foodMenu: MenuItem[] = [
@@ -592,3 +599,22 @@ export interface MenuItem {
     },
   ];
   
+  export const useMenuData = () => {
+    const [menu, setMenu] = useState<MenuItem[]>([]);
+    const sheetUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ7BNByWnCzjRGW6eWsmQufxiWa3PoMkWPXDWskQ1eRBWmAXf795MzL7Fk4xDA65h-QiXm8y-nho8KX/pub?gid=0&single=true&output=csv";
+    // const sheetUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ7BNByWnCzjRGW6eWsmQufxiWa3PoMkWPXDWskQ1eRBWmAXf795MzL7Fk4xDA65h-QiXm8y-nho8KX/pubhtml?gid=0&single=true";
+
+    useEffect(() => {
+      Papa.parse(sheetUrl, {
+        header: true,
+        download: true,
+        complete: (results) => {
+          const data = results.data as MenuItem[];
+          setMenu(data);
+          console.log(data);
+        },
+      });
+    }, []);
+
+    return menu;
+  };

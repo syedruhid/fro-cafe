@@ -970,3 +970,144 @@ input:checked + .switcher__label {
     scale: 1 1;
   }
 }
+
+/* Collapsed Navbar Styles */
+.navbar-collapsed {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.burger-menu {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(139, 90, 60, 0.2);
+  border-radius: 12px;
+  padding: 12px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.burger-menu:hover {
+  background: rgba(255, 255, 255, 1);
+  transform: scale(1.05);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+}
+
+.burger-line {
+  width: 20px;
+  height: 2px;
+  background: var(--walnut-brown);
+  margin: 2px 0;
+  transition: all 0.3s ease;
+  border-radius: 1px;
+}
+
+.burger-line.open:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.burger-line.open:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-line.open:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -6px);
+}
+
+.collapsed-menu {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(139, 90, 60, 0.2);
+  border-radius: 12px;
+  padding: 8px 0;
+  min-width: 150px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+}
+
+.collapsed-menu.open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.collapsed-menu-item {
+  display: block;
+  width: 100%;
+  padding: 12px 20px;
+  background: none;
+  border: none;
+  text-align: left;
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--walnut-brown);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-radius: 0;
+}
+
+.collapsed-menu-item:hover {
+  background: rgba(139, 90, 60, 0.1);
+  color: var(--walnut-brown);
+}
+
+.collapsed-menu-item.active {
+  background: rgba(139, 90, 60, 0.15);
+  color: var(--walnut-brown);
+  font-weight: 600;
+}
+
+/* Hide full navbar when scrolled */
+.switcher.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: all 0.3s ease;
+}
+
+/* Smooth transitions for navbar state changes */
+.switcher {
+  transition: all 0.3s ease;
+}
+
+/* Ensure proper z-index layering */
+.navbar-collapsed {
+  z-index: 1000;
+}
+
+.switcher {
+  z-index: 999;
+}
+
+/* Mobile spacing for expanded navbar */
+@media (max-width: 640px) {
+  .switcher {
+    left: 50%;
+    right: auto;
+    translate: -50%;
+    width: 244px; /* keep intrinsic layout */
+    max-width: 244px;
+    top: 20px; /* a bit closer to the top on mobile */
+    transform: scale(0.85);
+    transform-origin: top center;
+  }
+}
