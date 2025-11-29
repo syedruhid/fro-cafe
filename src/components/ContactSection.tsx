@@ -1,7 +1,10 @@
 import React from 'react'
 import Footer from './Footer'
+import useMediaQuery from "@mui/material/useMediaQuery";
 
-const ContactSection: React.FC = () => {
+export default function ContactSection() {
+  const isDesktop = useMediaQuery('(min-width:600px)');
+
   return (
     <div style={{ 
       height: '100vh', 
@@ -14,24 +17,66 @@ const ContactSection: React.FC = () => {
       color: 'white',
       padding: '2rem 1rem',
       overflow: 'hidden',
-      paddingTop:"80px",
+      paddingTop: "80px",
     }}>
-      {/* Background Pattern for Contact */}
+
+      {/* 🔹 Decorative radial pattern */}
       <div style={{
         position: 'absolute',
-        top: 0,
-        left: 0,
-        right: 0,
-        bottom: 0,
+        top: 0, left: 0, right: 0, bottom: 0,
         background: `
-          radial-gradient(circle at 20% 80%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
-          radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.05) 0%, transparent 50%),
-          linear-gradient(135deg, transparent 49%, rgba(255, 255, 255, 0.03) 50%, transparent 51%)
+          radial-gradient(circle at 20% 80%, rgba(255,255,255,0.1) 0%, transparent 50%),
+          radial-gradient(circle at 80% 20%, rgba(255,255,255,0.05) 0%, transparent 50%),
+          linear-gradient(135deg, transparent 49%, rgba(255,255,255,0.03) 50%, transparent 51%)
         `,
         backgroundSize: '100% 100%, 100% 100%, 30px 30px',
-        pointerEvents: 'none'
+        pointerEvents: 'none',
+        zIndex: 0
       }}></div>
 
+      {/* 🔹 TOP BACKGROUND IMAGE */}
+      <div style={{
+        position: "absolute",
+        top: 0,
+        left: 0,
+        width: "100%",
+        height: "50%",
+        backgroundImage:
+          "url('https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1350&q=80')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        opacity: 0.28,
+        zIndex: 0
+      }} />
+
+      {/* 🔹 BOTTOM BACKGROUND IMAGE */}
+      <div style={{
+        position: "absolute",
+        bottom: 0,
+        left: 0,
+        width: "100%",
+        height: "50%",
+        backgroundImage:
+          "url('https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=1350&q=80')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        opacity: 0.28,
+        zIndex: 0
+      }} />
+
+      {/* 🔹 Smooth Transition Divider */}
+      <div style={{
+        position: "absolute",
+        top: "45%",
+        left: 0,
+        width: "100%",
+        height: "10%",
+        background:
+          "linear-gradient(to bottom, rgba(163,177,138,0) 0%, rgba(163,177,138,0.7) 50%, rgba(163,177,138,0) 100%)",
+        zIndex: 0
+      }} />
+
+      {/* 🔹 MAIN CONTENT */}
       <div style={{ 
         textAlign: 'center', 
         width: '100%',
@@ -39,9 +84,9 @@ const ContactSection: React.FC = () => {
         position: 'relative',
         zIndex: 1
       }}>
+
         <h2 style={{ 
           fontSize: 'clamp(2.5rem, 5vw, 3.5rem)', 
-          marginBottom: '1rem', 
           fontFamily: 'var(--font-heading)', 
           color: 'white',
           fontWeight: '600'
@@ -62,6 +107,7 @@ const ContactSection: React.FC = () => {
           Join us in Siegen for the complete coffee experience
         </p>
 
+        {/* Card Row */}
         <div style={{ 
           display: 'flex', 
           flexDirection: 'row',
@@ -69,47 +115,16 @@ const ContactSection: React.FC = () => {
           marginBottom: 'clamp(2rem, 4vw, 4rem)',
           justifyContent: 'center',
           alignItems: 'stretch',
-          flexWrap: 'wrap'
+          flexWrap: 'wrap',
+          color: 'black',
         }}>
-          {/* Opening Hours */}
-          <div style={{
-            padding: 'clamp(2rem, 4vw, 3rem)',
-            borderLeft: '4px solid rgba(255, 255, 255, 0.3)',
-            textAlign: 'left',
-            background: 'rgba(255, 255, 255, 0.1)',
-            borderRadius: '20px',
-            backdropFilter: 'blur(10px)',
-            flex: '1',
-            minWidth: '300px',
-            maxWidth: '600px',
-            minHeight: '250px'
-          }}>
-            <h3 style={{ 
-              fontSize: 'clamp(1.8rem, 3vw, 2.5rem)', 
-              marginBottom: 'clamp(1.5rem, 3vw, 2rem)',
-              fontFamily: 'var(--font-heading)',
-              color: 'white',
-              fontWeight: '500'
-            }}>
-              Opening Hours
-            </h3>
-            <div style={{ 
-              fontSize: 'clamp(1rem, 2vw, 1.3rem)',
-              fontFamily: 'var(--font-body)',
-              lineHeight: '2.2',
-              opacity: 0.9
-            }}>
-              <p><strong>Monday - Saturday:</strong> 9:00 - 19:00</p>
-              <p><strong>Sunday:</strong> 9:00 - 18:00</p>
-            </div>
-          </div>
 
-          {/* Location */}
+          {/* Location + Contact Card */}
           <div style={{
             padding: 'clamp(2rem, 4vw, 3rem)',
-            borderLeft: '4px solid rgba(255, 255, 255, 0.3)',
+            borderLeft: '4px solid rgba(255,255,255,0.3)',
             textAlign: 'left',
-            background: 'rgba(255, 255, 255, 0.1)',
+            background: 'white',
             borderRadius: '20px',
             backdropFilter: 'blur(10px)',
             flex: '1',
@@ -119,13 +134,12 @@ const ContactSection: React.FC = () => {
           }}>
             <h3 style={{ 
               fontSize: 'clamp(1.8rem, 3vw, 2.5rem)', 
-              marginBottom: 'clamp(1.5rem, 3vw, 2rem)',
               fontFamily: 'var(--font-heading)',
-              color: 'white',
               fontWeight: '500'
             }}>
               Location
             </h3>
+
             <p style={{ 
               fontSize: 'clamp(1rem, 2vw, 1.3rem)',
               fontFamily: 'var(--font-body)',
@@ -133,20 +147,36 @@ const ContactSection: React.FC = () => {
               opacity: 0.9
             }}>
               <strong>FRØ Café</strong><br />
-              <a className="text-blue-600 underline hover:text-blue-800"
- href='https://www.google.com/maps/search/Am+Bahnhof+17+%0D%0A57072+Siegen?entry=gmail&source=g' target='blank_'>
-              At the train station 17<br />
-              57072 Siegen<br />
-              </a>
-              <br /> froe-cafe@outlook.de<br />
-               +49 271 123 456
+              <a 
+                className="text-blue-600 underline hover:text-blue-800"
+                href='https://www.google.com/maps/search/Am+Bahnhof+17+%0D%0A57072+Siegen?entry=gmail&source=g' 
+                target='_blank'
+              >
+                At the train station 17<br />
+                57072 Siegen<br />
+              </a>           
             </p>
+
+            <br/>
+
+            <h3 style={{ 
+              fontSize: 'clamp(1.8rem, 3vw, 2.5rem)', 
+              fontFamily: 'var(--font-heading)',
+              fontWeight: '500'
+            }}>
+              Contact
+            </h3>
+
+            froe-cafe@outlook.de<br />
+            +49 271 123 456
           </div>
+
         </div>
       </div>
-      <Footer/>
-    </div>
-  )
-}
 
-export default ContactSection 
+      {/* Desktop Only Footer */}
+      {isDesktop && <Footer/>}
+
+    </div>
+  );
+}

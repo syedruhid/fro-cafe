@@ -1,0 +1,204 @@
+category,categoryEn,subCategory,subCategoryEn,subSubCategory,subSubCategoryEn,name,nameEn,description,descriptionEn,Quantity,price
+Getränke,Drinks,Hot Drinks,Hot Drinks,Kaffee,Coffee,Espresso,Espresso,,,—,2.9
+Getränke,Drinks,Hot Drinks,Hot Drinks,Kaffee,Coffee,Espresso Doppio,Double Espresso,,,—,3.5
+Getränke,Drinks,Hot Drinks,Hot Drinks,Kaffee,Coffee,Espresso Macchiato,Espresso Macchiato,,,—,3.7
+Getränke,Drinks,Hot Drinks,Hot Drinks,Kaffee,Coffee,Latte Macchiato,Latte Macchiato,,,—,4.1
+Getränke,Drinks,Hot Drinks,Hot Drinks,Kaffee,Coffee,Milchkaffee,Caffè Latte,,,—,4.2
+Getränke,Drinks,Hot Drinks,Hot Drinks,Kaffee,Coffee,Flat White,Flat White,,,—,4.2
+Getränke,Drinks,Hot Drinks,Hot Drinks,Kaffee,Coffee,Americano,Americano,,,—,3.4
+Getränke,Drinks,Hot Drinks,Hot Drinks,Kaffee,Coffee,Cafe Crema,Café Crèma,,,—,3.4
+Getränke,Drinks,Hot Drinks,Hot Drinks,Kaffee,Coffee,Filter Kaffee,Filter Coffee,,,—,3
+Getränke,Drinks,Hot Drinks,Hot Drinks,Kaffee,Coffee,White Mocha,White Mocha,,,—,5.2
+Getränke,Drinks,Hot Drinks,Hot Drinks,Kaffee,Coffee,Chocolate Mocha,Chocolate Mocha,,,—,5.7
+Getränke,Drinks,Hot Drinks,Hot Drinks,Kaffee,Coffee,Cappuccino,Cappuccino,,,—,3.9
+Getränke,Drinks,Hot Drinks,Hot Drinks,Frischer Tee & Mehr,Fresh Tea & More,Matcha Latte,Matcha Latte,,,—,5.1
+Getränke,Drinks,Hot Drinks,Hot Drinks,Frischer Tee & Mehr,Fresh Tea & More,Chai Latte,Chai Latte,,,—,4.9
+Getränke,Drinks,Hot Drinks,Hot Drinks,Frischer Tee & Mehr,Fresh Tea & More,Hot Chocolate,Hot Chocolate,,,—,4.1
+Getränke,Drinks,Hot Drinks,Hot Drinks,Frischer Tee & Mehr,Fresh Tea & More,Grüner Tee,Green Tea,,,—,3.6
+Getränke,Drinks,Hot Drinks,Hot Drinks,Frischer Tee & Mehr,Fresh Tea & More,Schwarzer Tee,Black Tea,,,—,3.6
+Getränke,Drinks,Hot Drinks,Hot Drinks,Frischer Tee & Mehr,Fresh Tea & More,Früchtetee,Fruit Tea,,,—,3.6
+Getränke,Drinks,Hot Drinks,Hot Drinks,Frischer Tee & Mehr,Fresh Tea & More,Pfefferminztee,Peppermint Tea,,,—,3.6
+Getränke,Drinks,Hot Drinks,Hot Drinks,Frischer Tee & Mehr,Fresh Tea & More,Kamillentee,Chamomile Tea,,,—,3.6
+Getränke,Drinks,Cold Drinks,Cold Drinks,Kaffee,Coffee,Eiskaffee,Iced Coffee,optional mit Vanilleeis und Sahne,optional with vanilla ice cream and cream,—,5.5
+Getränke,Drinks,Cold Drinks,Cold Drinks,Kaffee,Coffee,Eisschokolade,Iced Chocolate,optional mit Vanilleeis und Sahne,optional with vanilla ice cream and cream,—,5.5
+Getränke,Drinks,Cold Drinks,Cold Drinks,Kaffee,Coffee,Ice Matcha,Iced Matcha,optional mit Strawberry / Mango,optional with strawberry / mango,—,5.7
+Getränke,Drinks,Cold Drinks,Cold Drinks,Kaffee,Coffee,Chai Ice Latte,Iced Chai Latte,,,—,4.9
+Getränke,Drinks,Cold Drinks,Cold Drinks,Kaffee,Coffee,Ice Americano,Iced Americano,,,—,3.4
+Getränke,Drinks,Cold Drinks,Cold Drinks,Kaffee,Coffee,Ice Latte,Iced Latte,optional mit Caramel / Vanilla / Hazelnut,optional with caramel / vanilla / hazelnut,—,4.1
+Getränke,Drinks,Cold Drinks,Cold Drinks,Kaffee,Coffee,Ice White Mocha,Iced White Mocha,,,—,5.2
+Getränke,Drinks,Cold Drinks,Cold Drinks,Kaffee,Coffee,Ice Black Mocha,Iced Black Mocha,,,—,5.2
+Getränke,Drinks,Cold Drinks,Cold Drinks,Hausgemachte Eistee,Homemade Iced Tea,Rosa Grapefruit,Pink Grapefruit,,,0.5l,5.9
+Getränke,Drinks,Cold Drinks,Cold Drinks,Hausgemachte Eistee,Homemade Iced Tea,Royal Wassermelone,Royal Watermelon,,,0.5l,5.9
+Getränke,Drinks,Cold Drinks,Cold Drinks,Hausgemachte Eistee,Homemade Iced Tea,Yuzu,Yuzu,,,0.5l,5.9
+Getränke,Drinks,Extras,Extras,,,Haselnuss Sirup,Hazelnut Syrup,,,—,1
+Getränke,Drinks,Extras,Extras,,,Caramel Sirup,Caramel Syrup,,,—,1
+Getränke,Drinks,Extras,Extras,,,Vanille Sirup,Vanilla Syrup,,,—,1
+Getränke,Drinks,Extras,Extras,,,Sahne,Cream,,,—,1
+Kaltgetränke,Cold Drinks,Soft Drinks,Soft Drinks,,,Coca Cola,Coca Cola,,,0.3l,3.9
+Kaltgetränke,Cold Drinks,Soft Drinks,Soft Drinks,,,Coca Cola,Coca Cola,,,0.5l,5.5
+Kaltgetränke,Cold Drinks,Soft Drinks,Soft Drinks,,,Coca Cola Zero,Coca Cola Zero,,,0.3l,3.9
+Kaltgetränke,Cold Drinks,Soft Drinks,Soft Drinks,,,Coca Cola Zero,Coca Cola Zero,,,0.5l,5.5
+Kaltgetränke,Cold Drinks,Soft Drinks,Soft Drinks,,,Fanta,Fanta,,,0.3l,3.9
+Kaltgetränke,Cold Drinks,Soft Drinks,Soft Drinks,,,Fanta,Fanta,,,0.5l,5.5
+Kaltgetränke,Cold Drinks,Soft Drinks,Soft Drinks,,,Fuze Ice Tea Zitrone,Fuze Iced Tea Lemon,,,0.3l,3.9
+Kaltgetränke,Cold Drinks,Soft Drinks,Soft Drinks,,,Fuze Ice Tea Zitrone,Fuze Iced Tea Lemon,,,0.5l,5.5
+Kaltgetränke,Cold Drinks,Soft Drinks,Soft Drinks,,,Sprite,Sprite,,,0.3l,3.9
+Kaltgetränke,Cold Drinks,Soft Drinks,Soft Drinks,,,Sprite,Sprite,,,0.5l,5.5
+Kaltgetränke,Cold Drinks,Soft Drinks,Soft Drinks,,,Tafelwasser,Table Water,Still / Medium,Still / Medium,0.5l,3.9
+Kaltgetränke,Cold Drinks,Soft Drinks,Soft Drinks,,,Tafelwasser,Table Water,Still / Medium,Still / Medium,0.75l,4.5
+Kaltgetränke,Cold Drinks,Soft Drinks,Soft Drinks,,,Apollinaris Wasser,Apollinaris Water,Still / Medium,Still / Medium,0.25l,3.6
+Kaltgetränke,Cold Drinks,Soft Drinks,Soft Drinks,,,Apollinaris Wasser,Apollinaris Water,Still / Medium,Still / Medium,0.75l,7.1
+Kaltgetränke,Cold Drinks,Soft Drinks,Soft Drinks,,,Churchill,Churchill,Sparkling water with lemon and salt,Sparkling water with lemon and salt,0.3l,3.9
+Kaltgetränke,Cold Drinks,Soft Drinks,Soft Drinks,,,Churchill,Churchill,Sparkling water with lemon and salt,Sparkling water with lemon and salt,0.5l,4.9
+Kaltgetränke,Cold Drinks,Soft Drinks,Soft Drinks,,,Veltins Fassbrause,Veltins Malt Drink,Mango Maracuja / Pink Grapefruit,Mango Passionfruit / Pink Grapefruit,0.33l,3.9
+Kaltgetränke,Cold Drinks,Soft Drinks,Soft Drinks,,,Rauch Eistee,Rauch Iced Tea,Pfirsich / Granatapfel,Peach / Pomegranate,0.33l,4.2
+Kaltgetränke,Cold Drinks,Soft Drinks,Soft Drinks,,,Goldberg,Goldberg,Bitter Lemon / Ginger Ale / Wild Berry / Tonic / Pink Grapefruit,Bitter Lemon / Ginger Ale / Wild Berry / Tonic / Pink Grapefruit,0.2l,3.9
+Kaltgetränke,Cold Drinks,Soft Drinks,Soft Drinks,,,Red Bull,Red Bull,,,0.25l,4.8
+Kaltgetränke,Cold Drinks,Soft Drinks,Soft Drinks,,,Red Bull Purple Berry,Red Bull Purple Berry,,,0.25l,5.2
+Kaltgetränke,Cold Drinks,Juice,Juice,,,Saft,Juice,Orange / Banana / Cherry / Apple / Passionfruit,Orange / Banana / Cherry / Apple / Passionfruit,0.3l,4.9
+Kaltgetränke,Cold Drinks,Juice,Juice,,,Alle Säfte als Schorle,All Juices as Spritzer,,,0.3l,4.9
+Kaltgetränke,Cold Drinks,Smoothie,Smoothie,,,Acai Berry,Acai Berry,"Acai, Strawberry, Blueberry, Mango","Acai, Strawberry, Blueberry, Mango",—,6.9
+Kaltgetränke,Cold Drinks,Smoothie,Smoothie,,,Grasshopper,Grasshopper,"Pineapple, Banana, Spinach, Mango","Pineapple, Banana, Spinach, Mango",—,6.9
+Kaltgetränke,Cold Drinks,Smoothie,Smoothie,,,Sunshine,Sunshine,"Peach, Passionfruit, Mango","Peach, Passionfruit, Mango",—,6.9
+Kaltgetränke,Cold Drinks,Milkshake,Milkshake,,,Milkshake,Milkshake,Alle Eissorten als Milkshake,All ice cream flavors as milkshake,—,4.9
+Kaltgetränke,Cold Drinks,Aperetiv ohne Alkohol,Alcohol-Free Aperitif,,,Laori No. 1,Laori No. 1,Virgin Tonic / Basil Smash,Virgin Tonic / Basil Smash,0.2l,9.9
+Kaltgetränke,Cold Drinks,Aperetiv ohne Alkohol,Alcohol-Free Aperitif,,,Laori No. 2,Laori No. 2,Dark & Stormy / Daiquiri,Dark & Stormy / Daiquiri,0.2l,9.9
+Kaltgetränke,Cold Drinks,Aperetiv ohne Alkohol,Alcohol-Free Aperitif,,,Bella Spritz,Bella Spritz,,,0.2l,7.8
+Kaltgetränke,Cold Drinks,Aperetiv ohne Alkohol,Alcohol-Free Aperitif,,,Bella Limoncello Spritz,Bella Limoncello Spritz,,,0.2l,8.2
+Kaltgetränke,Cold Drinks,Wein,Wine,Weißwein,White Wine,IL Mio Chardonnay,IL Mio Chardonnay,,,0.2l,5.9
+Kaltgetränke,Cold Drinks,Wein,Wine,Weißwein,White Wine,Arrogant Frog Chardonnay,Arrogant Frog Chardonnay,,,0.2l,6.9
+Kaltgetränke,Cold Drinks,Wein,Wine,Weißwein,White Wine,Ellermann S. Grauburgunder,Ellermann S. Pinot Gris,,,0.2l,5.9
+Kaltgetränke,Cold Drinks,Wein,Wine,Weißwein,White Wine,IL Mio Chardonnay,IL Mio Chardonnay,,,1l,27.9
+Kaltgetränke,Cold Drinks,Wein,Wine,Weißwein,White Wine,Weinschorle,Wine Spritzer," +1,00€ für Schorle",+ €1 for spritzer,—,1
+Kaltgetränke,Cold Drinks,Wein,Wine,Rotwein,Red Wine,IL Mio Primitivo,IL Mio Primitivo,,,0.2l,5.9
+Kaltgetränke,Cold Drinks,Wein,Wine,Rotwein,Red Wine,Arrogant Frog C. Sauvignon Merlot,Arrogant Frog Cabernet Sauvignon Merlot,,,0.2l,6.9
+Kaltgetränke,Cold Drinks,Wein,Wine,Roséwein,Rosé Wine,IL Mio Rosato,IL Mio Rosato,,,0.2l,5.9
+Kaltgetränke,Cold Drinks,Wein,Wine,Roséwein,Rosé Wine,Arrogant Frog Rosé,Arrogant Frog Rosé,,,0.2l,6.9
+Kaltgetränke,Cold Drinks,Wein,Wine,Wein Flasche,Wine Bottle,IL Mio alle Sorten,IL Mio (all varieties),,,1l,27.9
+Kaltgetränke,Cold Drinks,Wein,Wine,Wein Flasche,Wine Bottle,Arrogant alle Sorten,Arrogant (all varieties),,,0.7l,22.9
+Kaltgetränke,Cold Drinks,Bier,Beer,Vom Fass,On Tap,Veltins,Veltins,Pils / Cola / Alster / Radler,Pils / Cola / Shandy / Radler,0.3l,3.9
+Kaltgetränke,Cold Drinks,Bier,Beer,Vom Fass,On Tap,Veltins,Veltins,Pils / Cola / Alster / Radler,Pils / Cola / Shandy / Radler,0.5l,5.5
+Kaltgetränke,Cold Drinks,Bier,Beer,Vom Fass,On Tap,Püllecken,Püllecken,,,0.3l,3.9
+Kaltgetränke,Cold Drinks,Bier,Beer,Vom Fass,On Tap,Püllecken,Püllecken,,,0.5l,5.5
+Kaltgetränke,Cold Drinks,Bier,Beer,Vom Fass,On Tap,Grevensteiner,Grevensteiner,,,0.2l,3.3
+Kaltgetränke,Cold Drinks,Bier,Beer,Vom Fass,On Tap,Grevensteiner,Grevensteiner,,,0.5l,5.5
+Kaltgetränke,Cold Drinks,Bier,Beer,Vom Fass,On Tap,Maisels,Maisel’s,Helles Weizen / Banane / Kirsch,Light Wheat / Banana / Cherry,0.5l,5.3
+Kaltgetränke,Cold Drinks,Bier,Beer,Alkoholfrei,Alcohol-Free,Veltins Alkoholfrei,Veltins Non-Alcoholic,(Flasche),(Bottle),0.33l,3.9
+Kaltgetränke,Cold Drinks,Bier,Beer,Alkoholfrei,Alcohol-Free,Meisels Alkoholfrei Weizen,Maisel’s Non-Alcoholic Wheat,(Flasche),(Bottle),0.5l,5.8
+Kaltgetränke,Cold Drinks,Aperetiv mit Alkohol,Aperitif with Alcohol,,,Aperol Bitter,Aperol Bitter,,,0.2l,7.4
+Kaltgetränke,Cold Drinks,Aperetiv mit Alkohol,Aperitif with Alcohol,,,Sarti Spritz,Sarti Spritz,,,0.2l,7.4
+Kaltgetränke,Cold Drinks,Aperetiv mit Alkohol,Aperitif with Alcohol,,,Lillet,Lillet,Lemon / Wildberry,Lemon / Wildberry,0.2l,7.8
+Kaltgetränke,Cold Drinks,Aperetiv mit Alkohol,Aperitif with Alcohol,,,Limoncello Spritz,Limoncello Spritz,,,0.2l,5.2
+Kaltgetränke,Cold Drinks,Sekt,Sparkling Wine,,,Mionetto Prosecco Frizzante,Mionetto Prosecco Frizzante,,,0.1l,4.2
+Kaltgetränke,Cold Drinks,Sekt,Sparkling Wine,,,Mionetto Prosecco Frizzante,Mionetto Prosecco Frizzante,,,0.2l,5.9
+Kaltgetränke,Cold Drinks,Sekt,Sparkling Wine,,,Mionetto Prosecco Frizzante,Mionetto Prosecco Frizzante,,,0.75l,21.9
+Kaltgetränke,Cold Drinks,Sekt,Sparkling Wine,,,C. Jung Mousseux Alkoholfrei,C. Jung Non-Alcoholic Sparkling,,,0.2l,5.9
+Kaltgetränke,Cold Drinks,Sekt,Sparkling Wine,,,C. Jung Mousseux Alkoholfrei,C. Jung Non-Alcoholic Sparkling,,,0.75l,21.9
+Kaltgetränke,Cold Drinks,Meisterbrände,Fine Spirits,,,Genusswerk Sauerland,Genusswerk Sauerland,Kirsche / Marille / Zwetschke / Himbeere,Cherry / Apricot / Plum / Raspberry,2cl,3.9
+Kaltgetränke,Cold Drinks,Meisterbrände,Fine Spirits,,,Grevensteiner Bierbrand,Grevensteiner Beer Brandy,,,2cl,5.9
+Kaltgetränke,Cold Drinks,Meisterbrände,Fine Spirits,,,Ramazotti Limoncello,Ramazotti Limoncello,,,2cl,3.9
+Frühstück,Breakfast,Frühstücksteller,Breakfast Plates,,,Bonjour,Bonjour,"Buttriges Croissant, feinste Konfitüre oder Nutella und Obst","Buttery croissant, fine jam or Nutella, and fruit",—,5.9
+Frühstück,Breakfast,Frühstücksteller,Breakfast Plates,,,Klassisch,Classic,"Knuspriges Brötchen, Butter, Belag nach Lust und Laune und ein Heißgetränk nach Wahl","Crispy roll, butter, toppings of choice, and a hot drink of your choice",—,6.9
+Frühstück,Breakfast,Frühstücksteller,Breakfast Plates,,,Käse,Cheese,"Frisches Brot, Bergkäse, Brie und Gouda, Joghurt und Granola, Fruchtspiegel","Fresh bread, mountain cheese, brie and gouda, yogurt and granola, fruit mirror",—,12.9
+Frühstück,Breakfast,Frühstücksteller,Breakfast Plates,,,Genuss,Delight,"Frisches Brot, Aufschnitt, Käse, Mini-Gurken, Joghurt und Granola","Fresh bread, cold cuts, cheese, mini cucumbers, yogurt, and granola",—,13.2
+Frühstück,Breakfast,Frühstücksteller,Breakfast Plates,,,Bergwerker,Miner’s Breakfast,"Geröstetes Brot, Butter, Bratkartoffeln, Spiegeleier, Speckstreifen oder Sucuk, eingelegte Mini Gurken, Ketchup (optional mit frisch gezapftem Pils oder Püllecken +1,50€)","Toasted bread, butter, fried potatoes, fried eggs, bacon strips or sucuk, pickled mini cucumbers, ketchup (optional with freshly tapped beer or Püllecken +1.50€)",—,14.9
+Frühstück,Breakfast,Frühstücksteller,Breakfast Plates,,,Madame,Madame,"Avocado auf geröstetem Sauerteigbrot, Tomatencreme, Pinienkerne, 2 pochierte Eier oder Rührei (optional vegan), dazu Skyr mit Beeren & Granola (optional mit Sekt +1,00€)","Avocado on toasted sourdough, tomato cream, pine nuts, 2 poached eggs or scrambled eggs (optional vegan), with Skyr, berries & granola (optional with sparkling wine +1.00€)",—,13.9
+Frühstück,Breakfast,Frühstücksteller,Breakfast Plates,,,Burrata,Burrata,"Geröstetes Brot, Paprika-Walnuss-Creme, frische & geröstete Tomaten, cremige Burrata, Olive, Pesto","Toasted bread, paprika walnut cream, fresh & roasted tomatoes, creamy burrata, olive, pesto",—,14.9
+Frühstück,Breakfast,Doughs,Doughs,,,Tom Tom Bagel,Tom Tom Bagel,"Tomatencreme, frisches Basilikum und Spiegelei auf geröstetem Bagel (optional mit Bacon, Serrano oder Sucuk +3,30€)","Tomato cream, fresh basil and fried egg on toasted bagel (optional with bacon, serrano or sucuk +3.30€)",—,5.4
+Frühstück,Breakfast,Doughs,Doughs,,,Pepper & Cream Bagel,Pepper & Cream Bagel,"Frischkäse trifft Paprika & Rucola auf Salz-Pfeffer Bagel (optional mit Bacon, Serrano oder Sucuk +3,30€)","Cream cheese meets paprika & arugula on salt-pepper bagel (optional with bacon, serrano or sucuk +3.30€)",—,5.2
+Frühstück,Breakfast,Doughs,Doughs,,,New Yorker Bagel,New Yorker Bagel,"Avocado, Tomatencreme, Rucola, Walnuss und Granatapfel auf geröstetem Bagel","Avocado, tomato cream, arugula, walnut, and pomegranate on toasted bagel",—,6.5
+Frühstück,Breakfast,Doughs,Doughs,,,Vital Croissant,Vital Croissant,"Cremiges Rührei, halbe Avocado & knackige Sprossen im fluffigen Croissant (optional mit Bacon, Serrano oder Sucuk +3,30€)","Creamy scrambled eggs, half avocado & crisp sprouts in a fluffy croissant (optional with bacon, serrano or sucuk +3.30€)",—,8.8
+Frühstück,Breakfast,Doughs,Doughs,,,Honey Brioche,Honey Brioche,"Warme Pfannen-Brioche, süß & samtig mit Butter, Honig & frischem Obst, Granatapfel und auf Wunsch (optional mit Eis +1,80€)","Warm brioche, sweet & smooth with butter, honey, fresh fruit, pomegranate (optional with ice cream +1.80€)",—,8.8
+Frühstück,Breakfast,Eier,Eggs,,,Shakshuka,Shakshuka,"Pfannengericht mit frischen Tomaten, Kräutern, Eier, Paprika, Zwiebel und Chili, dazu frisches Brot (optional mit Rührei)","Pan dish with fresh tomatoes, herbs, eggs, paprika, onion, and chili, served with fresh bread (optional with scrambled eggs)",—,13.8
+Frühstück,Breakfast,Eier,Eggs,,,Rührei Klassisch,Classic Scrambled Eggs,Frischem Brot & Butter (optional mit Rührei / Feta),With fresh bread & butter (optional with scrambled eggs / feta),—,5.9
+Frühstück,Breakfast,Eier,Eggs,,,Rührei Sucuk,Scrambled Eggs with Sucuk,"Klassisch mit Würzinger Knoblauchwurst, frischem Brot & Butter (optional mit Bacon oder Serrano)","Classic with spicy garlic sausage, fresh bread & butter (optional with bacon or serrano)",—,9.3
+Frühstück,Breakfast,Eier,Eggs,,,Gekochtes Ei,Boiled Egg,Basic für jeden Morgen,Basic for every morning,—,1.5
+Frühstück,Breakfast,Bowls,Bowls,,,Skyr Bowl,Skyr Bowl,"Cremiger Skyr-Joghurt kombiniert mit Weintrauben, Granatapfel, hausgemachter Granola, Nüsse und Fruchtspiegel","Creamy Skyr yogurt combined with grapes, pomegranate, homemade granola, nuts, and fruit mirror",—,8.9
+Frühstück,Breakfast,Bowls,Bowls,,,Sun Bowl,Sun Bowl,"Passionsfrucht trifft auf Granatapfel, Weintrauben, hausgemachte Granola, gepufften Quinoa und Nüsse, abgerundet mit Honig oder Agave","Passion fruit with pomegranate, grapes, homemade granola, puffed quinoa, and nuts, topped with honey or agave",—,14.5
+Frühstück,Breakfast,Bowls,Bowls,,,Breakfast Bowl,Breakfast Bowl,"Zart pochierte Eier auf Knoblauch-Joghurt, verfeinert mit Dill, Chilli-Paprika-Butter, geröstetes Brot","Soft poached eggs on garlic yogurt, refined with dill, chili-paprika butter, and toasted bread",—,10.9
+Frühstück,Breakfast,Bowls,Bowls,,,Porridge,Porridge,Mit frischem Apfelkompott und Zimt,With fresh apple compote and cinnamon,—,7.9
+Frühstück,Breakfast,Kids,Kids,,,Süßer Bärenhunger,Sweet Bear Hunger,"Brot oder Brötchen mit Butter, Nutella oder Marmelade, frisches Obst, dazu Babyccino und eine Eis-Münze für die kleinen Frühstückshelden","Bread or roll with butter, Nutella or jam, fresh fruit, with a babyccino and an ice-coin reward for little breakfast heroes",—,6.9
+Frühstück,Breakfast,Kids,Kids,,,Kleiner Raketenstart,Little Rocket Start,"Brötchen oder Brot, Butter, Marmelade, Käse oder Salami, Skyr mit Fruchtspiegel, Babyccino und eine Eis-Münze für das perfekte Frühstücksabenteuer (“Eis-Münze als Belohnung: Das ist der Clou, wer seinen Teller leert, bekommt ein Mini-Eis dazu”)","Bread or roll, butter, jam, cheese or salami, Skyr with fruit mirror, babyccino, and an ice-coin for the perfect breakfast adventure (“Ice-coin reward: those who finish their plate get a mini ice cream”)",—,7.5
+Frühstück,Breakfast,Extras,Extras,,,Gouda,Gouda,,,—,0.6
+Frühstück,Breakfast,Extras,Extras,,,Feta,Feta,,,—,2.5
+Frühstück,Breakfast,Extras,Extras,,,Bacon,Bacon,,,—,3.3
+Frühstück,Breakfast,Extras,Extras,,,Sucuk,Sucuk,,,—,3.3
+Frühstück,Breakfast,Extras,Extras,,,Lachs,Salmon,,,—,4.9
+Frühstück,Breakfast,Extras,Extras,,,Serrano,Serrano Ham,,,—,3.3
+Frühstück,Breakfast,Extras,Extras,,,Spiegelei,Fried Egg,,,—,2
+Frühstück,Breakfast,Extras,Extras,,,Rührei,Scrambled Eggs,,,—,3.5
+Frühstück,Breakfast,Extras,Extras,,,Rührei Vegane,Vegan Scrambled Eggs,,,—,3.5
+Frühstück,Breakfast,Extras,Extras,,,Bagel / Croissant,Bagel / Croissant,,,—,2
+Frühstück,Breakfast,Extras,Extras,,,Scheibe Brot,Slice of Bread,,,—,1.2
+Frühstück,Breakfast,Extras,Extras,,,Nutella,Nutella,,,—,1.5
+Frühstück,Breakfast,Extras,Extras,,,Marmelade,Jam,,,—,1.5
+Frühstück,Breakfast,Extras,Extras,,,Butter 10g,Butter 10g,,,—,0.7
+Nordic Comfort Lunch,Nordic Comfort Lunch,Köttbullar,Meatballs,,,Klassisch,Classic,"Mit Rahmsauce, Kartoffelstampf, Dill-Gurkensalat und Preiselbeeren","With cream sauce, mashed potatoes, dill cucumber salad, and lingonberries",—,15.9
+Nordic Comfort Lunch,Nordic Comfort Lunch,Köttbullar,Meatballs,,,Geflügel,Poultry,"Mit Tomat-Paprika-Sauce, Pommes, Frische Gartensalat","With tomato-paprika sauce, fries, and fresh garden salad",—,14.9
+Nordic Comfort Lunch,Nordic Comfort Lunch,Salate,Salads,,,Nordic Chicken,Nordic Chicken,"Geröstetes Smørrebrød mit Kräuterschmand, Hähnchenstreifen und frischem Haubensalat, Granatapfel mit Joghurt-Dressing","Toasted smørrebrød with herb sour cream, chicken strips, fresh lettuce, and pomegranate with yogurt dressing",—,13.9
+Nordic Comfort Lunch,Nordic Comfort Lunch,Salate,Salads,,,Lachs & Greens,Salmon & Greens,"Blattsalat, Räucherlachs, Apfel, rote Zwiebel mit Honig-Senf-Vinaigrette, dazu geröstetes Sauerteigbrot","Leaf salad, smoked salmon, apple, red onion with honey-mustard vinaigrette, served with toasted sourdough",—,14.9
+Nordic Comfort Lunch,Nordic Comfort Lunch,Salate,Salads,,,Klassisch,Classic,"Blattsalat, Microgreens, Gurke, Tomate, Granatapfel mit Balsamico Dressing, dazu geröstetes Sauerteigbrot","Leaf salad, microgreens, cucumber, tomato, pomegranate with balsamic dressing, served with toasted sourdough",—,12.9
+Nordic Comfort Lunch,Nordic Comfort Lunch,Nordic Langos,Nordic Langos,,,Klassisch,Classic,"Sauerrahm, Käse, Knoblauchöl","Sour cream, cheese, garlic oil",—,9.9
+Nordic Comfort Lunch,Nordic Comfort Lunch,Nordic Langos,Nordic Langos,,,Schinken & Käse,Ham & Cheese,"Sauerrahm, Dänischer Havarti-Käse und Serrano","Sour cream, Danish Havarti cheese, and Serrano",—,13.9
+Nordic Comfort Lunch,Nordic Comfort Lunch,Nordic Langos,Nordic Langos,,,Lachs,Salmon,"Räucherlachs, Dill-Crème und Frühlingszwiebel","Smoked salmon, dill cream, and spring onion",—,14.9
+Nordic Comfort Lunch,Nordic Comfort Lunch,Nordic Langos,Nordic Langos,,,SøD,Sweet,"Zimt & Puderzucker (optional mit Bacon oder Serrano +1,50€)",Cinnamon & powdered sugar (optional with bacon or serrano +1.50€),—,5.5
+Nordic Comfort Lunch,Nordic Comfort Lunch,Suppe,Soup,,,Tomatensuppe,Tomato Soup,Tomatensuppe dazu geröstetes Sauerteigbrot,Tomato soup served with toasted sourdough,—,8.9
+Nordic Comfort Lunch,Nordic Comfort Lunch,Suppe,Soup,,,Karotte-Ingwersuppe,Carrot Ginger Soup,Karotten-Ingwersuppe dazu geröstetes Sauerteigbrot,Carrot-ginger soup served with toasted sourdough,—,8.9
+Nordic Comfort Lunch,Nordic Comfort Lunch,Snacks,Snacks,,,Pommes,Fries,,,—,3.9
+Nordic Comfort Lunch,Nordic Comfort Lunch,Snacks,Snacks,,,Kartoffelschiffchen,Potato Boats,,,—,4.4
+Nordic Comfort Lunch,Nordic Comfort Lunch,Snacks,Snacks,,,Süßkartoffel-Pommes,Sweet Potato Fries,,,—,5.1
+Nordic Comfort Lunch,Nordic Comfort Lunch,Snacks,Snacks,,,Ofenkartoffel m. Sour,Baked Potato with Sour Cream,,,—,5.9
+Nordic Comfort Lunch,Nordic Comfort Lunch,Snacks,Snacks,,,Fish & Chips,Fish & Chips,Knusprige Fischfilet-Bites und Pommes mit Dill-Remoulade,Crispy fish filet bites and fries with dill remoulade,—,9.9
+Nordic Comfort Lunch,Nordic Comfort Lunch,Snacks,Snacks,,,Laugen-Bites,Pretzel Bites,"(optional mit wahlweise Käsesauce, Schokosauce oder Karamellsauce +1,00€)","(optional with cheese sauce, chocolate sauce, or caramel sauce +1.00€)",6er,3.9
+Nordic Comfort Lunch,Nordic Comfort Lunch,Snacks,Snacks,,,Laugen-Bites,Pretzel Bites,"(optional mit wahlweise Käsesauce, Schokosauce oder Karamellsauce +1,00€)","(optional with cheese sauce, chocolate sauce, or caramel sauce +1.00€)",9er,4.9
+Nordic Comfort Lunch,Nordic Comfort Lunch,Saucen,Sauces,,,Ketchup,Ketchup,,,—,1.5
+Nordic Comfort Lunch,Nordic Comfort Lunch,Saucen,Sauces,,,Mayonnaise,Mayonnaise,,,—,1.5
+Nordic Comfort Lunch,Nordic Comfort Lunch,Saucen,Sauces,,,Sour Cream,Sour Cream,,,—,2.5
+Nordic Comfort Lunch,Nordic Comfort Lunch,Saucen,Sauces,,,Käsesauce,Cheese Sauce,,,—,2.5
+Nordic Comfort Lunch,Nordic Comfort Lunch,Saucen,Sauces,,,Schokosauce,Chocolate Sauce,,,—,1
+Nordic Comfort Lunch,Nordic Comfort Lunch,Saucen,Sauces,,,Karamellsauce,Caramel Sauce,,,—,1
+Nordic Comfort Lunch,Nordic Comfort Lunch,Kids,Kids,,,Mini Bullar,Mini Meatballs,Fleischbällchen mit Kartoffelstampf & Preiselbeeren,Meatballs with mashed potatoes & lingonberries,—,6.9
+Nordic Comfort Lunch,Nordic Comfort Lunch,Kids,Kids,,,Fish Bites,Fish Bites,Knusprige Fischfiletstücke mit Pommes & Gurkensticks,Crispy fish fillet pieces with fries & cucumber sticks,—,6.9
+Nordic Comfort Lunch,Nordic Comfort Lunch,Kids,Kids,,,Mini Langos,Mini Langos,Zimt & Puderzucker,Cinnamon & powdered sugar,—,3.3
+Eis,Ice Cream,,,Pistaziengrün,Pistachio Green,"Handgemachtes Pistazieneis, Vanilleeis, Sahne, Pistaziensoße, Pistazien, Eisgebäck","Handmade pistachio ice cream, vanilla ice cream, cream, pistachio sauce, pistachios, ice biscuit",—,"9,80€",,
+Eis,Ice Cream,,,Tiramisudrøm,Tiramisu Dream,"Cremige Eisfusion aus Tiramisu, Biskuitlöffel, Schokosoße, Kakao und Sahne – einfach ein Traum","Creamy tiramisu ice fusion with ladyfingers, chocolate sauce, cocoa, and cream – simply a dream",—,"8,40€",,
+Eis,Ice Cream,,,Splitterglück,Choco Crunch Delight,"Stracciatellaeis doppelt so viel Freude, gekrönt mit Sahne, Schokosoße und knackigen Schokoraspeln, Eisgebäck","Double joy of stracciatella ice cream topped with cream, chocolate sauce, crunchy chocolate flakes, and ice biscuit",—,"9,50€",,
+Eis,Ice Cream,,,Schokoberg,Choco Mountain,"Cremiges Schokoeis, Belgisches Schokoeis, Sahne, Schokosoße, Schokoraspeln, Eisgebäck","Creamy chocolate ice cream, Belgian chocolate ice cream, cream, chocolate sauce, chocolate flakes, ice biscuit",—,"8,40€",,
+Eis,Ice Cream,,,Smørkeks,Cookie Cream,"Vanille- & Cookieeis, Sahne, Schokosoße & süße Dough-Bites – einfach unwiderstehlich lecker","Vanilla & cookie ice cream, cream, chocolate sauce, sweet dough bites – irresistibly delicious",—,"9,70€",,
+Eis,Ice Cream,,,Amarenanatt,Amareno Kiss,"Amarenaeis, Vanilleeis, Sahne, Amarenasoße, Kirsche, Eisgebäck – Liebe im Glas","Amarena ice cream, vanilla ice cream, cream, amarena sauce, cherry, ice biscuit – love in a glass",—,"8,40€",,
+Eis,Ice Cream,,,Joghurtfrische,Yogurt Freshness,"Frisches Joghurteis & Fruchtjoghurt, Sahne, Erdbeersoße, Beeren – Genuss voller Leichtigkeit","Fresh yogurt ice cream and fruit yogurt, cream, strawberry sauce, berries – pure light indulgence",—,"8,70€",,
+Eis,Ice Cream,,,Knusperzauber,Crunchy Magic,"Haselnusseis, Honigmandeleis, Sahne, Karamellsoße und gebrannte Nüsse","Hazelnut ice cream, honey almond ice cream, cream, caramel sauce, and roasted nuts",—,"8,70€",,
+Eis,Ice Cream,,,Waldgold,Forest Gold,"Waldfruchtsorbet, Honigmandeleis, Sahne, Amarenasoße, Karamellsauce, Früchte und Nüsse – ein magischer Mix","Forest fruit sorbet, honey almond ice cream, cream, amarena sauce, caramel sauce, fruits and nuts – a magical mix",—,"11,90€",,
+Eis,Ice Cream,,,Erdbeerzeit,Strawberry Season,"Erdbeer küsst Vanille, Sahne, Erdbeersoße, Erdbeeren, Eisgebäck","Strawberry meets vanilla, cream, strawberry sauce, strawberries, ice biscuit",—,"8,80€",,
+Eis,Ice Cream,,,Mangocrunch,Mango Crunch,"Sonnengereiftes Mangosorbet trifft Joghurteis, Sahne, frische Mangostücke, hausgemachtes Granola, Eisgebäck","Sun-ripened mango sorbet with yogurt ice cream, cream, fresh mango pieces, homemade granola, ice biscuit",—,"9,80€",,
+Eis,Ice Cream,,,Moccanote,Moccanote,"Moccaeis, Sahnecremeeis, feine Kaffeesoße, Sahne, knackige Moccabohnen, Eisgebäck","Mocha ice cream, cream ice, fine coffee sauce, cream, crunchy mocha beans, ice biscuit",—,"8,80€",,
+Eis,Ice Cream,,,Snickersünde,Snickers Sin,"Snickerseis, Salzkaramelleis, getoppt mit Karamellsoße, Sahne, knackigen Erdnüssen, Snickers – pure Versuchung im Becher","Snickers ice cream, salted caramel ice cream topped with caramel sauce, cream, crunchy peanuts, Snickers – pure temptation in a cup",—,"9,70€",,
+Eis,Ice Cream,,,Spaghetti,Spaghetti,"Sahne, Vanilleeis, fruchtiger Erdbeersoße, weiße Schokoraspeln, Eisgebäck","Cream, vanilla ice cream, fruity strawberry sauce, white chocolate flakes, ice biscuit",—,"6,90€",,
+Eis,Ice Cream,,,Zitronenwolke,Lemon Cloud,"Frisches Zitronensorbet, Vanilleeis, Vanillesauce, Sahne, fluffiger Baiser, Lemoncurd, Eisgebäck","Fresh lemon sorbet, vanilla ice cream, vanilla sauce, cream, fluffy meringue, lemon curd, ice biscuit",—,"10,90€",,
+Eis,Ice Cream,Kids,Kids,Krümmelmonster,Cookie Monster,"Cookieeis, blaue Streusel, Oreo","Cookie ice cream, blue sprinkles, Oreo",—,"5,20€",,
+Eis,Ice Cream,Kids,Kids,Schweinebacke,Piggy Cheeks,"Erdbeersorbet, Keks, Schokodrops","Strawberry sorbet, cookie, chocolate drops",—,"5,20€",,
+Eis,Ice Cream,Kids,Kids,Zauberzwerg,Magic Dwarf,"Vanilleeis, Streusel, Minihörnchen, Smarties","Vanilla ice cream, sprinkles, mini cones, Smarties",—,"5,20€",,
+Eis,Ice Cream,Kids,Kids,Herr Tierlieb,Mr. Animal Lover,"Schokoeis, Happy Hippo","Chocolate ice cream, Happy Hippo",—,"5,20€",,
+Eis,Ice Cream,Kids,Kids,Frø Baby,Fro Baby,"Mini Portion Eis, bunte Streusel",Mini portion of ice cream with colorful sprinkles,—,"2,80€",,
+Dessert,Dessert,Kuchen und Torten,Cakes & Pies,Landkuchen,Country Cake,Verschiedene Sorten,Various varieties,—,"ab 4,90€",,
+Dessert,Dessert,Kuchen und Torten,Cakes & Pies,Torten,Tortes,Verschiedene Sorten,Various varieties,—,"ab 3,90€",,
+Dessert,Dessert,Kuchen und Torten,Cakes & Pies,Kuchen,Cakes,Verschiedene Sorten,Various varieties,—,"ab 3,90€",,
+Dessert,Dessert,Milchreis,Rice Pudding,Apfelzauber,Apple Magic,"Milchreis mit fruchtigem Apfelkompott, gerösteten Mandelstiften, karamellisiertem Zimt & Zucker","Rice pudding with fruity apple compote, roasted almonds, and caramelized cinnamon & sugar",—,"6,50€",,
+Dessert,Dessert,Milchreis,Rice Pudding,Weiße Vanille,White Vanilla,Cremiger Milchreis mit samtigem Vanillepudding und feinen weißen Schokoraspeln,Creamy rice pudding with smooth vanilla pudding and fine white chocolate flakes,—,"5,50€",,
+Dessert,Dessert,Milchreis,Rice Pudding,Klassisch,Classic,Traditioneller Milchreis verfeinert mit Zimt & Zucker,Traditional rice pudding refined with cinnamon & sugar,—,"3,90€",,
+Dessert,Dessert,Special,Special,Cookie Sandwich Eis,Cookie Sandwich Ice Cream,White Choco oder Double Choco + Eis nach Wahl,White Choco or Double Choco + Ice cream of choice,—,"5,50€",,
+Dessert,Dessert,Hausgemachte Waffel,Homemade Waffles,Klassisch,Classic,Frische Waffel mit Puderzucker,Fresh waffle with powdered sugar,—,"4,50€",,
+Dessert,Dessert,Hausgemachte Waffel,Homemade Waffles,Schoko,Chocolate,"Frische Waffel mit Erdbeeren, Schokoladeneis, Sahne und Schokosoße","Fresh waffle with strawberries, chocolate ice cream, cream, and chocolate sauce",—,"8,50€",,
+Dessert,Dessert,Hausgemachte Waffel,Homemade Waffles,Blueberry Lemon,Blueberry Lemon,"Frische Waffel mit Blaubeeren, Zitronensorbet, Sahne und Blaubeersoße","Fresh waffle with blueberries, lemon sorbet, cream, and blueberry sauce",—,"8,50€",,
+Dessert,Dessert,Hausgemachte Waffel,Homemade Waffles,Kirsch,Cherry,"Frische Waffel mit heißen Kirschen, Vanilleeis, Sahne und Vanillesoße","Fresh waffle with hot cherries, vanilla ice cream, cream, and vanilla sauce",—,"8,50€",,
+Dessert,Dessert,Hausgemachte Waffel,Homemade Waffles,Beeren,Berries,"Frische Waffel mit Beeren, Erdbeersoße, Sahne und Ahornsirup","Fresh waffle with berries, strawberry sauce, cream, and maple syrup",—,"9,50€",,
+Dessert,Dessert,Hausgemachte Waffel,Homemade Waffles,Pistazie,Pistachio,"Frische Waffel mit Pistazieneis, Sahne, gerösteten Pistazien und Pistaziensoße","Fresh waffle with pistachio ice cream, cream, roasted pistachios, and pistachio sauce",—,"9,50€",,
+Dessert,Dessert,Extras,Extras,Vanillesauce,Vanilla Sauce,—,—,—,"1,00€",,
+Dessert,Dessert,Extras,Extras,Schokosauce,Chocolate Sauce,—,—,—,"1,00€",,
+Dessert,Dessert,Extras,Extras,Erdbeersauce,Strawberry Sauce,—,—,—,"1,00€",,
+Dessert,Dessert,Extras,Extras,Amarenasauce,Amarena Sauce,—,—,—,"1,00€",,
+Dessert,Dessert,Extras,Extras,Karamellsauce,Caramel Sauce,—,—,—,"1,00€",,
+Dessert,Dessert,Extras,Extras,Pistaziensauce,Pistachio Sauce,—,—,—,"1,00€",,
+Dessert,Dessert,Extras,Extras,Blaubeersauce,Blueberry Sauce,—,—,—,"1,00€",,
+Dessert,Dessert,Extras,Extras,Sahne,Cream,—,—,—,"1,00€",,
+Dessert,Dessert,Extras,Extras,Eis,Ice Cream,—,—,—,"1,80€",,

@@ -64,7 +64,6 @@ const DasNashwerkGallery = () => {
     }
   };
 
-  console.log("windiow,inn: ", window.innerWidth, window.innerHeight);
 
   if (isMobile) {
     return <DasNashwerkGalleryMobile />;

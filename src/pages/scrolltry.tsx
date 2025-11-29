@@ -35,7 +35,6 @@ const SmoothStackedPanels: React.FC = () => {
 
   useEffect(() => {
     const totalSections = sectionsRef.current.length;
-    console.log(totalSections, ';total');
     
     const tl = gsap.timeline({
       scrollTrigger: {

@@ -111,7 +111,8 @@ const HeroSection: React.FC<HeroSectionProps> = ({ seaVideo }) => {
             fontFamily: 'var(--font-body)',
             marginBottom: '3rem',
             fontWeight: '300',
-            textShadow: '1px 1px 3px rgba(0,0,0,0.3)'
+            textShadow: '1px 1px 3px rgba(0,0,0,0.3)',
+            padding: "0 2rem"
           }}>
             Experience the journey of coffee in Siegen
           </p>

@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 import Menu from "./pages/Menu";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -30,7 +29,6 @@ function App() {
           </AnimatePresence>
         </ScrollToTop>
       </div>
-      {/* <Footer/> */}
     </Router>
   );
 }

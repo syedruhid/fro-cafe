@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 
 const DasNashwerkGalleryMobile = () => {
   const galleryImages = [
@@ -50,40 +50,61 @@ const DasNashwerkGalleryMobile = () => {
   ];
 
   const [activeIndex, setActiveIndex] = useState(0);
+  const scrollRef = useRef(null);
 
-  // Function to determine bubble size based on position
-  const getBubbleSize = (index) => {
-    if (index === activeIndex) return "w-36 h-36"; // active bubble
-    if (index === activeIndex - 1 || index === activeIndex + 1) return "w-20 h-20"; // neighbors slightly smaller
-    return "w-24 h-24"; // default size
+  const handleScroll = () => {
+    if (scrollRef.current) {
+      const { scrollLeft, offsetWidth } = scrollRef.current;
+      const newIndex = Math.round(scrollLeft / offsetWidth);
+      setActiveIndex(newIndex);
+    }
   };
 
-  return (
-    <div className="w-full min-h-screen flex flex-col items-center justify-center p-6 bg-white">
-      <h2 className="text-2xl font-bold text-[var(--walnut-brown)] mb-6 text-center">
-        Das Nashwerk Gallery
-      </h2>
+  useEffect(() => {
+    const ref = scrollRef.current;
+    if (ref) {
+      (ref as HTMLElement).addEventListener('scroll', handleScroll);
+      return () => {
+        (ref as HTMLElement).removeEventListener('scroll', handleScroll);
+      };
+    }
+  }, []);
 
-      <div className="flex flex-wrap justify-center gap-4">
-        {galleryImages.map((image, i) => {
-          const sizeClass = getBubbleSize(i);
-          return (
-            <div
-              key={i}
-              className={`relative rounded-full overflow-hidden cursor-pointer transition-all duration-500 ease-in-out z-10 ${sizeClass}`}
-              onClick={() => setActiveIndex(activeIndex === i ? 0 : i)}
-            >
-              <img
-                src={image.imageUrl}
-                alt={image.alt}
-                className="w-full h-full object-cover rounded-full"
-                draggable={false}
-              />
-            </div>
-          );
-        })}
+  return (
+   <div className="w-full h-screen bg-white overflow-hidden">
+  <div
+    ref={scrollRef}
+    className="flex overflow-x-scroll snap-x snap-mandatory w-full h-screen"
+  >
+    {galleryImages.map((image, index) => (
+      <div
+        key={index}
+        className="flex-none w-full h-screen relative snap-center"
+      >
+        <img
+          src={image.imageUrl}
+          alt={image.alt}
+          className="w-full h-full object-cover pointer-events-none"
+        />
+
+        <p className="absolute bottom-12 left-3 text-white text-lg drop-shadow-lg">
+          {image.alt}
+        </p>
       </div>
-    </div>
+    ))}
+  </div>
+
+  {/* Pagination dots are now absolutely positioned on top of images */}
+  <div className="absolute bottom-6 w-full flex justify-center space-x-2 z-10">
+    {galleryImages.map((_, index) => (
+      <div
+        key={index}
+        className={`w-2 h-2 rounded-full ${index === activeIndex ? "bg-white w-6" : "bg-gray-500 w-2"}`}
+      />
+    ))}
+  </div>
+</div>
+
   );
 };
 

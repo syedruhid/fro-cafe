@@ -33,6 +33,8 @@ export default function AboutSection() {
     },
   ];
 
+  const isDesktop = window.innerWidth >= 600;
+
   return (
     <Box
       sx={{
@@ -42,26 +44,78 @@ export default function AboutSection() {
         pt: 2,
       }}
     >
-      <Typography variant="h3" fontStyle={"inherit"} sx={{ textAlign: "start", p: 12 }}>
+      {/* Mobile Title */}
+      <Typography
+        variant="h6"
+        fontStyle={"inherit"}
+        sx={{
+          display: { xs: "block", sm: "none" },
+          textAlign: "center",
+        }}
+      >
         Our Values
       </Typography>
+
+      {/* Desktop Title */}
+      <Typography
+        variant="h3"
+        fontStyle={"inherit"}
+        sx={{
+          display: { xs: "none", sm: "block" },
+          textAlign: "start",
+          p: 12,
+        }}
+      >
+        Our Values
+      </Typography>
+
       <Grid
-        container
+        container={isDesktop}
         justifyContent="center"
-        sx={{ minHeight: "100vh" }}
+        sx={{
+          minHeight: "100vh",
+          flexDirection: { xs: "column", sm: "row" },
+          mt: {xs: 5, md: 0}
+        }}
       >
         {valuesData.map(({ title, description, imageUrl }) => (
           <Grid key={title} size={{ xs: 12, sm: 3 }}>
             <Box
+              sx={{
+                display: { xs: "block", sm: "none" },
+                background: "white",
+                p: 3,
+                m: 2,
+                borderRadius: "12px",
+                boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
+              }}
+            >
+              <Typography variant="subtitle1" fontWeight="bold" textAlign="center" mb={0}>
+                {title}
+              </Typography>
+
+              <Typography
+                variant="subtitle2"
+                color="text.secondary"
+                textAlign="center"
+                sx={{ lineHeight: 1.4}}
+              >
+                {description}
+              </Typography>
+            </Box>
+
+            {/* Desktop Layout - Flip Card */}
+            <Box
               className="w-full aspect-[3/4] [perspective:1000px]"
               sx={{
+                display: { xs: "none", sm: "block" },
                 maxWidth: 340,
                 minHeight: 500,
                 margin: "auto",
               }}
             >
               <Box className="relative w-full h-full transition-transform duration-500 [transform-style:preserve-3d] group hover:[transform:rotateY(180deg)]">
-                {/* Front */}
+                {/* Front - Image */}
                 <Box className="absolute inset-0 rounded-lg overflow-hidden shadow-lg [backface-visibility:hidden]">
                   <img
                     src={imageUrl}
@@ -69,7 +123,8 @@ export default function AboutSection() {
                     className="w-full h-full object-cover"
                   />
                 </Box>
-                {/* Back */}
+
+                {/* Back - Text */}
                 <Box className="absolute inset-0 rounded-lg bg-white p-4 shadow-lg [transform:rotateY(180deg)] [backface-visibility:hidden] flex flex-col justify-center items-center">
                   <h2 className="text-lg font-bold mb-2 text-center">{title}</h2>
                   <p className="text-sm text-gray-700 text-center">{description}</p>
