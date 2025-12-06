@@ -1,0 +1,18 @@
+{
+  "builds": [
+    {
+      "src": "src/**/*",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "src/assets/**/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/assets/(.*)",
+      "dest": "/src/assets/$1"
+    }
+  ]
+}
