@@ -3,35 +3,35 @@ import React, { useState, useRef, useEffect } from "react";
 const DasNashwerkGalleryMobile = () => {
   const galleryImages = [
     {
-      imageUrl: '/src/assets/images/fro1.jpeg',
+      imageUrl: '/images/fro1.jpeg',
       // alt: 'Image 1 Description'
     },
     {
-      imageUrl: '/src/assets/images/fro34.jpeg',
+      imageUrl: '/images/fro34.jpeg',
       // alt: 'Image 2 Description'
     },
     {
-      imageUrl: '/src/assets/images/fro23.jpeg',
+      imageUrl: '/images/fro23.jpeg',
       // alt: 'Image 3 Description'
     },
     {
-      imageUrl: '/src/assets/images/fro41.jpeg',
+      imageUrl: '/images/fro41.jpeg',
       // alt: 'Image 4 Description'
     },
     {
-      imageUrl: '/src/assets/images/fro35.jpeg',
+      imageUrl: '/images/fro35.jpeg',
       // alt: 'Image 5 Description'
     },
     {
-      imageUrl: '/src/assets/images/fro16.jpeg',
+      imageUrl: '/images/fro16.jpeg',
       // alt: 'Image 6 Description'
     },
     {
-      imageUrl: '/src/assets/images/fro27.jpeg',
+      imageUrl: '/images/fro27.jpeg',
       // alt: 'Image 7 Description'
     },
     {
-      imageUrl: '/src/assets/images/fro8.jpeg',
+      imageUrl: '/images/fro8.jpeg',
       // alt: 'Image 8 Description'
     }
   ];

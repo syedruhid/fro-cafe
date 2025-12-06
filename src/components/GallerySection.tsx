@@ -18,35 +18,35 @@ const DasNashwerkGallery = () => {
 
   const galleryImages = [
     {
-      imageUrl: '/src/assets/images/fro1.jpeg',
+      imageUrl: '/images/fro1.jpeg',
       // alt: 'Image 1 Description'
     },
     {
-      imageUrl: '/src/assets/images/fro2.jpeg',
+      imageUrl: '/images/fro2.jpeg',
       // alt: 'Image 2 Description'
     },
     {
-      imageUrl: '/src/assets/images/fro3.jpeg',
+      imageUrl: '/images/fro3.jpeg',
       // alt: 'Image 3 Description'
     },
     {
-      imageUrl: '/src/assets/images/fro4.jpeg',
+      imageUrl: '/images/fro4.jpeg',
       // alt: 'Image 4 Description'
     },
     {
-      imageUrl: '/src/assets/images/fro5.jpeg',
+      imageUrl: '/images/fro5.jpeg',
       // alt: 'Image 5 Description'
     },
     {
-      imageUrl: '/src/assets/images/fro6.jpeg',
+      imageUrl: '/images/fro6.jpeg',
       // alt: 'Image 6 Description'
     },
     {
-      imageUrl: '/src/assets/images/fro7.jpeg',
+      imageUrl: '/images/fro7.jpeg',
       // alt: 'Image 7 Description'
     },
     {
-      imageUrl: '/src/assets/images/fro8.jpeg',
+      imageUrl: '/images/fro8.jpeg',
       // alt: 'Image 8 Description'
     }
   ];

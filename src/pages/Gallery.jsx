@@ -28,7 +28,7 @@ const Gallery = () => {
     const id = index + 1;
     return {
       id,
-      src: `/src/assets/images/fro${id}.jpeg`,
+      src: `/images/fro${id}.jpeg`,
       // alt: `Image ${id}`,
       category: 'local',
       // title: `Image ${id} Description`
