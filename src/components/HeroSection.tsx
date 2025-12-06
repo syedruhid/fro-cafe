@@ -1,5 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react'
 import Footer from './Footer'
+import newVideo from "../assets/videos/coffee-1.mp4";
 
 interface HeroSectionProps {
   seaVideo: string
@@ -62,7 +63,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ seaVideo }) => {
           zIndex: -1
         }}
       >
-        <source src={seaVideo} type="video/mp4" />
+        <source src={newVideo} type="video/mp4" />
       </video>
       
       {/* Overlay */}
@@ -112,12 +113,20 @@ const HeroSection: React.FC<HeroSectionProps> = ({ seaVideo }) => {
             marginBottom: '3rem',
             fontWeight: '300',
             textShadow: '1px 1px 3px rgba(0,0,0,0.3)',
-            padding: "0 2rem"
+            padding: "0 3rem"
           }}>
-            Experience the journey of coffee in Siegen
+            Experience the journey of coffee
           </p>
         )}
 
+      </div>
+      {/* Add a video player section for debugging */}
+      <div style={{ position: 'relative', margin: '20px', zIndex: 2 }}>
+        <h3 style={{ color: 'white', textAlign: 'center' }}>Video Player Debug</h3>
+        <video controls style={{ width: '100%', maxWidth: '400px', margin: '0 auto' }}>
+          <source src={newVideo} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
       <Footer/>
     </div>

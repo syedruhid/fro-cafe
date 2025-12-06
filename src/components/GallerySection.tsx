@@ -18,35 +18,37 @@ const DasNashwerkGallery = () => {
 
   const galleryImages = [
     {
-      imageUrl:
-        "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=687&q=80",
-      alt: "Coffee brewing process",
+      imageUrl: '/src/assets/images/fro1.jpeg',
+      // alt: 'Image 1 Description'
     },
     {
-      imageUrl:
-        "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=1170&q=80",
-      alt: "Fresh breakfast spread",
+      imageUrl: '/src/assets/images/fro2.jpeg',
+      // alt: 'Image 2 Description'
     },
     {
-      imageUrl:
-        "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=687&q=80",
-      alt: "Homemade ice cream",
+      imageUrl: '/src/assets/images/fro3.jpeg',
+      // alt: 'Image 3 Description'
     },
     {
-      imageUrl:
-        "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1170&q=80",
-      alt: "Cozy cafe interior",
+      imageUrl: '/src/assets/images/fro4.jpeg',
+      // alt: 'Image 4 Description'
     },
     {
-      imageUrl:
-        "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=687&q=80",
-      alt: "Coffee beans and equipment",
+      imageUrl: '/src/assets/images/fro5.jpeg',
+      // alt: 'Image 5 Description'
     },
     {
-      imageUrl:
-        "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1170&q=80",
-      alt: "Barista crafting coffee",
+      imageUrl: '/src/assets/images/fro6.jpeg',
+      // alt: 'Image 6 Description'
     },
+    {
+      imageUrl: '/src/assets/images/fro7.jpeg',
+      // alt: 'Image 7 Description'
+    },
+    {
+      imageUrl: '/src/assets/images/fro8.jpeg',
+      // alt: 'Image 8 Description'
+    }
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -160,7 +162,7 @@ const DasNashwerkGallery = () => {
               >
                 <img
                   src={image.imageUrl}
-                  alt={image.alt}
+                  // alt={image.alt}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -186,7 +188,7 @@ const DasNashwerkGallery = () => {
                     userSelect: "none",
                   }}
                 >
-                  {image.alt}
+                  {/* {image.alt} */}
                 </div>
               </div>
             );

@@ -6,8 +6,8 @@ import HeroSection from "../components/HeroSection";
 import GallerySection from "../components/GallerySection";
 import AboutSection from "../components/AboutSection";
 import ContactSection from "../components/ContactSection";
-import heroVideo from '../assets/coffee-1.mp4';
-import coffeeVideo from '../assets/coffee-2.mp4';
+import heroVideo from "../assets/videos/coffee-1.mp4";
+import coffeeVideo from "../assets/videos/coffee-2.mp4";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
