@@ -6,8 +6,6 @@ import HeroSection from "../components/HeroSection";
 import GallerySection from "../components/GallerySection";
 import AboutSection from "../components/AboutSection";
 import ContactSection from "../components/ContactSection";
-import heroVideo from "../assets/videos/coffee-1.mp4";
-import coffeeVideo from "../assets/videos/coffee-2.mp4";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
@@ -109,7 +107,7 @@ const SmoothStackedPanels: React.FC = () => {
       {/* Fixed background video */}
       <video
         className="fixed top-0 left-0 w-full h-full object-cover -z-10 will-change-transform"
-        src="/src/assets/coffee-1.mp4"
+        src="/videos/coffee-1.mp4"
         autoPlay
         muted
         loop
@@ -124,7 +122,7 @@ const SmoothStackedPanels: React.FC = () => {
             className="absolute inset-0 h-screen"
             style={{ zIndex: 5 }}
           >
-            <HeroSection seaVideo={heroVideo} />
+            <HeroSection/>
           </section>
           <section
             ref={addToRefs}
@@ -160,7 +158,7 @@ const SmoothStackedPanels: React.FC = () => {
                   zIndex: -1
                 }}
               >
-                <source src={coffeeVideo} type="video/mp4" />
+                <source src='/videos/coffee-2.mp4' type="video/mp4" />
               </video>
 
               {/* Overlay */}
