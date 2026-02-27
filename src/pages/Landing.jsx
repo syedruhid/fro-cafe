@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Draggable } from 'gsap/Draggable'
-import seaVideo from '../assets/coffee-1.mp4'
+import seaVideo from '../utils/imagePath'
 import HeroSection from '../components/HeroSection'
 import DasNashwerkGallery from '../components/GallerySection'
 import WhatToExpectSection from '../components/WhatToExpectSection'
@@ -125,7 +125,7 @@ const Landing = () => {
   return (
     <div className="landing-page">
       {/* Hero section with video background */}
-      <HeroSection seaVideo={seaVideo} />
+      <HeroSection seaVideo={videoPaths["coffee-1"]} />
 
       {/* Gallery section */}
       <DasNashwerkGallery/>

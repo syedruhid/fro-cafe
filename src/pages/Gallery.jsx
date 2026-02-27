@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { X, ChevronLeft, ChevronRight } from 'lucide-react'
+import { imagePaths } from '../utils/imagePath'
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null)
@@ -24,12 +25,12 @@ const Gallery = () => {
   ]
 
   // Raw image list (48 items)
-  const galleryImagesData = Array.from({ length: 48 }, (_, index) => {
+  const galleryImagesData = imagePaths.map((image, index) => {
     const id = index + 1;
     return {
       id,
-      src: `/images/fro${id}.jpeg`,
-      // alt: `Image ${id}`,
+      src: image.path,
+      alt: image.alt,
       category: 'local',
       // title: `Image ${id} Description`
     };
