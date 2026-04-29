@@ -18,35 +18,35 @@ const DasNashwerkGallery = () => {
 
   const galleryImages = [
     {
-      imageUrl: 'https://rkjhmlqyjlxjjrbqpqfo.supabase.co/storage/v1/object/public/assets/images/fro1.jpeg',
+      imageUrl: 'https://assets.frocafe.de/images/fro1.jpeg',
       // alt: 'Image 1 Description'
     },
     {
-      imageUrl: 'https://rkjhmlqyjlxjjrbqpqfo.supabase.co/storage/v1/object/public/assets/images/fro2.jpeg',
+      imageUrl: 'https://assets.frocafe.de/images/fro2.jpeg',
       // alt: 'Image 2 Description'
     },
     {
-      imageUrl: 'https://rkjhmlqyjlxjjrbqpqfo.supabase.co/storage/v1/object/public/assets/images/fro3.jpeg',
+      imageUrl: 'https://assets.frocafe.de/images/fro3.jpeg',
       // alt: 'Image 3 Description'
     },
     {
-      imageUrl: 'https://rkjhmlqyjlxjjrbqpqfo.supabase.co/storage/v1/object/public/assets/images/fro4.jpeg',
+      imageUrl: 'https://assets.frocafe.de/images/fro4.jpeg',
       // alt: 'Image 4 Description'
     },
     {
-      imageUrl: 'https://rkjhmlqyjlxjjrbqpqfo.supabase.co/storage/v1/object/public/assets/images/fro5.jpeg',
+      imageUrl: 'https://assets.frocafe.de/images/fro5.jpeg',
       // alt: 'Image 5 Description'
     },
     {
-      imageUrl: 'https://rkjhmlqyjlxjjrbqpqfo.supabase.co/storage/v1/object/public/assets/images/fro6.jpeg',
+      imageUrl: 'https://assets.frocafe.de/images/fro6.jpeg',
       // alt: 'Image 6 Description'
     },
     {
-      imageUrl: 'https://rkjhmlqyjlxjjrbqpqfo.supabase.co/storage/v1/object/public/assets/images/fro7.jpeg',
+      imageUrl: 'https://assets.frocafe.de/images/fro7.jpeg',
       // alt: 'Image 7 Description'
     },
     {
-      imageUrl: 'https://rkjhmlqyjlxjjrbqpqfo.supabase.co/storage/v1/object/public/assets/images/fro8.jpeg',
+      imageUrl: 'https://assets.frocafe.de/images/fro8.jpeg',
       // alt: 'Image 8 Description'
     }
   ];

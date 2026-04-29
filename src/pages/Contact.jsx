@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { MapPin, Phone, Mail, Clock } from 'lucide-react'
+import { MapPin, Phone, Clock } from 'lucide-react'
 
 const Contact = () => {
   const contactInfo = [
@@ -76,7 +76,7 @@ const Contact = () => {
             </p>
           </motion.div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-6">
             {contactInfo.map((info, index) => (
               <motion.div
                 key={index}
@@ -127,7 +127,7 @@ const Contact = () => {
               Find Us
             </h2>
             <p className="text-xl" style={{ color: '#1a2f1f' }}>
-              Located in the heart of Berlin's culinary district
+              Located in the heart of Siegen
             </p>
           </motion.div>
           

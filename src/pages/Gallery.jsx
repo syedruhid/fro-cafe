@@ -5,7 +5,6 @@ import { imagePaths } from '../utils/imagePath'
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null)
-  const [activeCategory, setActiveCategory] = useState('all')
   const [galleryImages, setGalleryImages] = useState([])
 
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -16,13 +15,6 @@ const Gallery = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  const categories = [
-    { id: 'all', name: 'All' },
-    { id: 'food', name: 'German Cuisine' },
-    { id: 'ambiance', name: 'Restaurant' },
-    { id: 'team', name: 'Our Team' },
-    { id: 'events', name: 'Events' }
-  ]
 
   // Raw image list (48 items)
   const galleryImagesData = imagePaths.map((image, index) => {
@@ -57,25 +49,19 @@ const Gallery = () => {
     ).then(setGalleryImages);
   }, []);
 
-  // Correct filtering logic (use galleryImages, NOT raw data)
-  const filteredImages =
-    activeCategory === 'all'
-      ? galleryImages
-      : galleryImages.filter(img => img.category === activeCategory);
-
   const handleImageClick = (image) => setSelectedImage(image);
   const closeModal = () => setSelectedImage(null);
 
   const nextImage = () => {
-    const index = filteredImages.findIndex(img => img.id === selectedImage.id);
-    const nextIndex = (index + 1) % filteredImages.length;
-    setSelectedImage(filteredImages[nextIndex]);
+    const index = galleryImages.findIndex(img => img.id === selectedImage.id);
+    const nextIndex = (index + 1) % galleryImages.length;
+    setSelectedImage(galleryImages[nextIndex]);
   };
 
   const prevImage = () => {
-    const index = filteredImages.findIndex(img => img.id === selectedImage.id);
-    const prevIndex = index === 0 ? filteredImages.length - 1 : index - 1;
-    setSelectedImage(filteredImages[prevIndex]);
+    const index = galleryImages.findIndex(img => img.id === selectedImage.id);
+    const prevIndex = index === 0 ? galleryImages.length - 1 : index - 1;
+    setSelectedImage(galleryImages[prevIndex]);
   };
 
   return (
@@ -153,7 +139,7 @@ const Gallery = () => {
               ${isMobile ? "grid-cols-2" : "md:grid-cols-2 lg:grid-cols-3"}
             `}
           >
-            {filteredImages.map((image, index) => (
+            {galleryImages.map((image, index) => (
               <motion.div
                 key={image.id}
                 layout
@@ -225,7 +211,7 @@ const Gallery = () => {
                 </div>
               </div>
 
-              {filteredImages.length > 1 && (
+              {galleryImages.length > 1 && (
                 <>
                   <button
                     onClick={prevImage}
